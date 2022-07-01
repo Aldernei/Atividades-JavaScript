@@ -24,6 +24,8 @@ function changeText(){
 	h1.innerHTML = lightMode + ' ON';
 }
 
+const darkModeClass = 'dark-mode';
+
 const button = document.getElementById('mode-selector');
 const h1 = document.getElementById('page-title');
 const body = document.getElementsByTagName('body')[0];
